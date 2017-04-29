@@ -1,24 +1,17 @@
-[Ressurected] BlueChat (AKA Fire Chat)
-======================
+CSL 343 Project
+===============
 
-Bluetooth instant messaging app for Android, Edited by Maysleazy.
+Underlying Network : Bluetooth
 
-Screenshots here (more to be posted soon): http://imgur.com/a/Esmbt (Not Updated, will update soon)
+Group Members:
 
-How it works:
-  - To send messages and images, we transmit them in formatted byte arrays in the following format:
-      <blockquote>
-      [ Message Type, Sender Name Length, ...Body Length**..., Sender ID, Sender Name, Body ]
-      </blockquote>
-      
-    ** The Body Length is separated into tens digits (from least to most significant digit) just in case the body length exceeds the size of a byte.
+1. A.V.S Karthik(2014CSB1005)
+2. Nikhil Teja (2014CSB1011)
+3. M.Akhil Avinash(2014CSB1019)
+4. Nikhil Kumar Pulipeta(2014CSB1025)
+5. Manish Dahiya(2014EEB1065)
 
-Notes:
-  - If having connection problems, make sure the host creates a room before a client tries to join 
-  - Make sure Higher API Level (Higher Android Version) Creates the Room.
-  
-Current Bugs:
-  - Sometimes quitting and rejoining a chatroom is a bit buggy (Fixed)
-  - Sometimes rooms made by lower API cannot be joined by higher API. Workaround - Make sure Higher API Level (Higher Android       Version) Creates the Room.
+BluMeet is a dating app which uses Bluetooth for all the data transmission between various users. It is meant to be used in places where 
+many people are in close proximity, like in clubs, subways, or cultural festivals. 
 
-Download Current Version: https://bit.ly/fctestv2 (Edited by Maysleazy)
+
